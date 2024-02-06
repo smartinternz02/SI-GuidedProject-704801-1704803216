@@ -64,6 +64,4 @@ iv. Test data preparation (in the form of Validation Table) as per baseline docu
 
 * Advantages and need of automation testing tools
   
-# Project Structure:
 
-![121](https://github.com/Faishal0786/Software-Testing-Automation-With-Katalon/assets/141898542/f72a69f5-a663-4f6b-a66b-6bf359e50454)
