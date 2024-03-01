@@ -1,0 +1,265 @@
+TEST PLAN IEEE FORMAT: 
+1. Test Plan ID:AM_ST_TP_001
+2. Introduction: About the Project and testing 
+3. Test Items:  
+4. Features to Be Tested: NA
+5. Features Not to Be Tested: Which ones to test and which ones not to test (e.g. Features 
+of previous version of the Software) 
+6.  Approach: List of testing techniques to be applied on the modules (prepared by QA/PM) 
+7. Features Pass/Fail Criteria: When above features are pass and when they fail 
+8. Suspension Criteria:Nil 
+9. Test Environment: Required hardware and software including testing tools to conduct 
+testing 
+10. Test Deliverables: Required test documents to be prepared during testing (Test Cases, 
+Test Procedures, Test Log, Test Report) 
+11. Test Tasks: necessary tasks to do before starting of every project testing 
+12. Staff and Training Needs: The names of test engineers and required training sessions 
+13. Responsibilities: Work allocation in terms of test engineers Vs Modules 
+14. Schedule: Dates and Times 
+15. Risks and Mitigations: Analyze risks and possible solution to overcome them 
+16. Approvals: Signatures of Test Plan Author and PM/QA 
+
+
+
+ 1. Test Plan Id: AM_ST_TP_001
+2. Introduction: 
+✓ The purpose of this project report is to provide a comprehensive overview of the testing 
+activities conducted for an e-commerce website.  
+✓ The testing activities were carried out to ensure that the website functions as expected, 
+meets the requirements, and delivers a high-quality user experience. The report includes 
+details on the testing objectives, scope, testing approach, test environment, test 
+activities, test results, and recommendations for improvement. 
+✓ Verify the functionality of the website, including product browsing, product search, 
+shopping cart, checkout process, payment processing, and order confirmation. 
+3. Test Items: 
+✓ User Registration 
+✓ User Login 
+✓ Product browsing and searching 
+✓ Shopping cart functionality 
+✓ Order confirmation 
+4. References: 
+✓ Requirements 
+✓ Project Plan 
+✓ Test Strategy 
+✓ Use cases (if available) 
+✓ High level Design Documents 
+✓ Low Level Design Documents 
+✓ Process Guide line document 
+✓ Prototypes 
+5. Features to be tested: 
+a) User Registration: 
+1.  Verify that users can register with valid details such as name, 
+email, and password. 
+2.  Verify that users cannot register with invalid or duplicate email 
+addresses. 
+3. Verify that mandatory fields are properly validated and error 
+messages are displayed for missing or invalid information. 
+4. Verify that users receive confirmation emails after successful 
+registration. 
+b) User Login 
+1. Verify that users can login with valid credentials (email and 
+password). 
+2. Verify that users cannot login with invalid or incorrect credentials. 
+3. Verify that users can reset their password in case they forget it. 
+4. Verify that appropriate error messages are displayed for incorrect 
+login attempts. 
+c) Product browsing and searching: 
+1.  
+Verify that users can search for products based on various criteria 
+such as keywords, categories, brands, etc. 
+2. Verify that search results display accurate and relevant products. 
+3. Verify that users can filter and sort search results based on 
+different parameters. 
+d) Shopping cart functionality 
+1. Verify that users can add products to their cart and view the cart 
+contents. 
+2. Verify that users can update the quantity or remove products from 
+the cart. 
+e) Order confirmation 
+1. Verify that users receive order confirmation emails after successful 
+purchases 
+6. Features not to be tested: NA 
+7. Entry Criteria: 
+a) Test Design:  
+• Team formation, Responsibilities, schedule, requirements, test case template  
+• Training on domain, on automation tools 
+b) Test Execution 
+Readiness of test tab 
+Readiness of AUT 
+Requirements 
+Test case Documents 
+Test data 
+Defect Report Template 
+Etc… 
+8) Exit Criteria: 
+All possible test cases executed 
+Maximum defect fixed, final regression performed successfully 
+Confidence on test process 
+Time limitations 
+Budget limitations 
+9) Suspension criteria: Nil 
+10) Roles and Responsibilities: 
+S.NO NAME 
+ROLE 
+RESPONSIBILITIES 
+1 
+R Marieswaran Test Lead 
+REMARKS 
+Test planning, guidance, Monitoring 
+and test control 
+2 
+R Marieswaran Sr. Tester 
+Test data collection, Generating test 
+scenarios 
+3 
+R Marieswaran Tester 
+Test 
+case 
+documentation, 
+test 
+execution, 
+defect 
+reporting 
+tracking for admin module 
+4 
+R Marieswaran Tester 
+Test 
+case 
+execution, 
+documentation, 
+and 
+test 
+and 
+tracking for Personal banking module 
+5  
+defect 
+R Marieswaran Tester 
+Test 
+case 
+reporting 
+documentation, 
+and 
+tracking for Corporate banking module 
+test 
+execution, 
+defect 
+reporting 
+11) Schedule: 
+SNO TASK 
+DAYS DURATION 
+1 
+Understanding and Analyzing 
+requirements 
+2 
+8th Jan to 9th Jan  
+REMARKS 
+2 
+Review meeting 
+1 
+10th Jan  
+3 
+Generating Test scenarios 
+2 
+11th Jan to 12ndJan  
+4 
+Reviews 
+2 
+13th Jan to 14th Jan  
+5 
+Test case Documentation 
+1 
+15th Jan   
+6 
+Reviews 
+1 
+16th Jan   
+7 
+Test data collection 
+1 
+17th Jan  
+8 
+Reviews 
+1 
+17th Jan  
+9 
+Verifying 
+Setup 
+Test 
+Environment 
+1 
+18th Jan  
+10 
+Create Test Batches 
+Sanity Testing 
+1 
+19th Jan  
+11 
+1 
+19th Jan  
+12 Comprehensive testing 1 20th Jan   
+13 Sanity Testing 1 20th Jan  
+14 Selecting Test Cases 1 20th Jan  
+15 Regressing Testing 2 21th Jan to 22th Jan  
+16 Sanity Testing 1 23th Jan  
+17 Selecting Test Cases 1 24th Jan  
+18 Regression Testing cycle -2 2 25th Jan to 26th Jan  
+19 .    
+. .    
+. .    
+28 Final Regression  1 26th Jan  
+29 Evaluating Exit Criteria 1 27th Jan  
+30 Collecting all artifacts 1 27th Jan  
+31 Test Summary Report 1 28th Jan  
+Note: Regression Testing depends on Application and strength of Development team. 
+12)Training: 
+• Training program on Banking Domain 
+• Test Automation Training Using HP UFT Tool 
+ 
+13) Risks and Mitigations: NA 
+ 
+14) Test Environment/ Lab: 
+Application Type:  Web Application, Internet and public 
+Server Side: 
+• Windows 2003 server 
+• UNIX server 
+• MS Exchange server a) webserver b) EDP c) Data storage 
+• Bugzilla tool 
+• Support all frontend frameworks 
+• MS Office 
+• HP UFT Tool, etc… 
+• Browser IE 7.0 
+Client side: 
+• Windows xp+sp2 
+• Support all frontend frameworks: ReactJS, AngularJS 
+• Ms-Office 
+• Cross-browser compatibility: Chrome, Firefox, Safari, Edge 
+AUT Environment: 
+• REST 
+• SOAP 
+• GraphQl 
+• SQL server 2005 for database server 
+15) Test Deliverables: 
+• Test Plan 
+• Review reports 
+• RTM 
+• Test Scenario docs 
+• Test Case Docs 
+• Test data 
+• Opened, closed defect report 
+• Test summary report 
+16) Approvals: 
+SNO TASK/S 
+AUTHOR/ RULE 
+DATE & SIGNATURE 
+1 
+Test plan documentation Mamtha (Test Lead)  
+2 
+Review 
+Hari Prasad (Quality analyst)  
+3 
+Approval 
+Vinod Rao (Project Manager)  
+17) Glossary 
+AUT- Application Under Test 
+PIN- Project initiation note 
+SRS- Software Requirement Specification
